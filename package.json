@@ -1,0 +1,29 @@
+{
+  "name": "agent-47",
+  "version": "1.0.0",
+  "description": "Autonomous Emotional Circuit Breaker trading agent for Bitget Playbook.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node index.js",
+    "check": "node --check index.js"
+  },
+  "keywords": [
+    "agent-47",
+    "bitget",
+    "getagent",
+    "playbook",
+    "trading-agent",
+    "risk-management",
+    "emotional-circuit-breaker"
+  ],
+  "author": "Team agent 47",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@bitget-ai/getagent-skill": "latest"
+  }
+}

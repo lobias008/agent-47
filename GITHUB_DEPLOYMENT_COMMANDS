@@ -1,0 +1,6 @@
+git init
+git branch -M main
+gh repo create agent-47 --public --source=. --remote=origin
+git add package.json index.js README.md .gitignore DEVOPS_TROUBLESHOOTING_GUIDE.md AUTOMATED_TERMINAL_COMMANDS GITHUB_DEPLOYMENT_COMMANDS
+git commit -m "Initialize Agent 47 Bitget Playbook trading agent"
+git push -u origin main
